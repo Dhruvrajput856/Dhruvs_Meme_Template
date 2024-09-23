@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv's Cool Video Meme Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a73e8, #ff4081);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px black;
+        }
+        .meme-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 30px;
+        }
+        .meme {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px;
+        }
+        .meme:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+        }
+        .meme video {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ff4081;
+        }
+        .meme p {
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2rem;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #ff4081;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+        }
+        .highlight {
+            color: #ff4081;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Dhruv's Cool Video Meme Page
+    </header>
+
+    <section class="meme-gallery">
+        <div class="meme">
+            <video controls>
+                <source src="200 Ka loss Leke Roti Hui vo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>200 ka loss leke roti hui vo / Me jo 40K loss me hold karke baitha hu</p>
+        </div>
+        <div class="meme">
+            <video controls>
+                <source src="Woriar.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Trading to sikh gya per ab capital nahi bacha</p>
+        </div>
+        <div class="meme">
+            <video controls>
+                <source src="oggy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Dhruv jo khud loss kar ta hai aur mama ko Trading call deta hai</p>
+        </div>
+        <!-- Add more meme videos here -->
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by <span class="highlight">Dhruv Rajput</span>. &copy; 2024 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
